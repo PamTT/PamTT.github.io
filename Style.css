@@ -1,6 +1,8 @@
 /* Body */
 body{
-    background-color: #EDEDED; 
+    
+  background-color: lightgrey;
+  /*background-color: rgb(237, 243, 187), 243, 187), 190, 132), 190, 132), 190, 132), 190, 132), 190, 132); */
 }
 
 @media (max-width: 480px) {
@@ -31,15 +33,15 @@ body{
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-h1 {
-    font-size: 70px;
-    color:darkcyan;
+h1 {text-align: center;
+    font-size: 40px;
+    color: rgb(23, 58, 77);
 }
-  
+
 h2 {
-    font-size: 60px;
-    color:darkcyan;
-}
+      font-size: 30px;
+      color:darkcyan;
+  }
 
 h3 {
     font-size: 30px;
@@ -54,9 +56,55 @@ h4 {
 h5 {
     font-size: 15px;
     color:darkcyan;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 1.6;
+    
 }
+
+h6 {
+  font-size: 10px;
+  color:darkcyan;
+  
+}
+
 p {
     padding:5px;
     font-size:17px;
     color:darkolivegreen;
+}
+
+
+header {
+  background-color:lightgrey;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  color:rgb(244, 248, 248);
+}
+
+img {
+  border-radius: 50%;
+  padding:20;}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.myDiv1 {
+  width: 1000px;
+  height: 700px;
+  border: 5px outset teal;
+  background-color:rgb(236, 234, 234);
+  text-align: center;
+  
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 30px;
 }
